@@ -84,11 +84,11 @@ export const content = {
     hero_content: [
       {
         count: "",
-        text: "I'm a Blockchain Architect student with a passion for Software Development. seeking to work in a challenging position in an organization that will allow me to apply my acquired knowledge of the field, provide opportunity for professional growth.",
+        text: "I'm a Blockchain  student with a passion for Software Development. seeking to work in a challenging position in an organization that will allow me to apply my acquired knowledge of the field, provide opportunity for professional growth.",
       },
       {
         count: "",
-        text: "Currently pursuing a Blockchain Architect course from Kerala Blockchain Academy. Gained six months of hands-on exposure in full-stack development through Web2 and blockchain technologies ",
+        text: "Currently pursuing a Postgraduate Diploma in Blockchain Technology from Kerala Blockchain Academy. Gained six months of hands-on exposure in full-stack development through Web2 and blockchain technologies ",
       },
     ],
   },
