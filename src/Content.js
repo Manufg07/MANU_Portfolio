@@ -31,6 +31,7 @@ import project3 from "./assets/images/Projects/img4.png";
 import project5 from "./assets/images/Projects/kbacourse.png";
 import project6 from "./assets/images/Projects/zillowDapp.png";
 import project7 from "./assets/images/Projects/quiz.png";
+import project8 from "./assets/images/Projects/project-8.png"
 import person_project from "./assets/images/Projects/techie.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -238,6 +239,12 @@ export const content = {
         title: "Zillow Dapp",
         image: project6,
         github_url: "https://github.com/Manufg07/Zillow_Dapp.git",
+        vercel_url: "",
+      },
+      {
+        title: "Tantalum Supplychain-Hyperledger Fabric Project",
+        image: project8,
+        github_url: "https://github.com/Manufg07/Tantalum_Supplychain.git",
         vercel_url: "",
       },
       {
