@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Service from "./components/Services";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
+import HackathonsAndAchievements from "./components/HackathonsAndAchievements";
 import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
@@ -27,6 +28,7 @@ const App = () => {
       <Skills />
       <Service />
       <Projects />
+      <HackathonsAndAchievements/>
       <Testimonials />
       <Hireme />
       <Contact />

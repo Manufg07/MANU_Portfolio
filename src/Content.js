@@ -34,6 +34,14 @@ import project7 from "./assets/images/Projects/quiz.png";
 import project8 from "./assets/images/Projects/project-8.png"
 import person_project from "./assets/images/Projects/techie.png";
 
+import hack1 from "./assets/images/Hackethon/poap.jpg"
+import hack2 from "./assets/images/Hackethon/polkadot.gif"
+import hack3 from "./assets/images/Hackethon/graph.gif"
+import hack4 from "./assets/images/Hackethon/blockhack.webp";
+import hack5 from "./assets/images/Hackethon/based.webp"
+
+import aelf from "./assets/images/Hackethon/aelf-elf-seeklogo.svg";
+
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
@@ -205,6 +213,7 @@ export const content = {
       },
     ],
   },
+
   Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
@@ -261,6 +270,69 @@ export const content = {
       },
     ],
   },
+
+  hackathons: {
+    title: "Hackathons",
+    subtitle: "SHOWCASING MY PARTICIPATION",
+    hackathon_content: [
+      {
+        name: "ETHIndia 2024",
+        poap: hack1,
+        project: "ZeroCHECK",
+        description:
+          "As a proud participant in ETHIndia 2024, one of the largest Ethereum hackathons, I had the opportunity to collaborate with some of the brightest minds in the blockchain ecosystem.",
+        // description: "ZeroCHECK, a web app using ZKP technology for secure, privacy-preserving identity verification, deployable on Ethereum, Polygon, and BNB, ideal for privacy-focused use cases like finance, voting, and access control.",
+        link: "https://github.com/Manufg07/ZeroCHECK.git",
+      },
+      {
+        name: "BlockHack 2024",
+        poap: hack4,
+        project: "Obsidian Horizon",
+        description:"I participated in BlockHack 2024, organized by Kerala Blockchain Academy, a platform for students and blockchain enthusiasts to explore and innovate within the Ethereum ecosystem, contributing to its growth and adoption.",
+          // "Obsidian Horizon is a Web3 exploration game built on Ethereum, where players explore maps, solve tasks, and earn tokens and NFTs, featuring a token swap platform, staking, and an NFT marketplace.",
+        // description: "ZeroCHECK, a web app using ZKP technology for secure, privacy-preserving identity verification, deployable on Ethereum, Polygon, and BNB, ideal for privacy-focused use cases like finance, voting, and access control.",
+        link: "https://github.com/Manufg07/OBSIDIAN-HORIZON.git",
+      },
+      {
+        name: "Based India",
+        poap: hack5,
+        project: "Zero-KP Verify",
+        description:"I participated in Based India, a regional Buildathon empowering builders to solve community challenges and create innovative onchain solutions, as part of the global Based Around the World series.",
+          // "Zero-KP Verify is a web-based application leveraging zero-knowledge proofs and Layer 2 blockchain to securely verify identities while preserving privacy and ensuring scalability.",
+        // description: "ZeroCHECK, a web app using ZKP technology for secure, privacy-preserving identity verification, deployable on Ethereum, Polygon, and BNB, ideal for privacy-focused use cases like finance, voting, and access control.",
+        link: "https://github.com/Manufg07/base_india-ZKP.git",
+      },
+      {
+        name: "Polkadot",
+        poap: hack2,
+        description:
+          "Received for participating in the Polkadot workshop at ETHIndia 2024, where I explored Substrate and Polkadot's interoperable blockchain ecosystem.",
+        // link: "https://project-link2.com",
+      },
+      {
+        name: "The Graph",
+        poap: hack3,
+        project: "Project Name 2",
+        description:
+          "Awarded for attending The Graph workshop at ETHIndia 2024, gaining insights into decentralized data indexing and querying using GraphQL.",
+        // link: "https://project-link2.com",
+      },
+    ],
+  },
+
+  achievements: {
+    title: "Achievements",
+    subtitle: "CELEBRATING MILESTONES",
+    achievement_content: [
+      {
+        name: "Aelfinity Developer Workshop",
+        description:
+          "Winner in Aelfinity Developer Workshop series conducted by aelf Blockchain in collaboration with Kerala Blockchain Academy..",
+        badge: aelf,
+      },
+    ],
+  },
+
   Education: {
     title: "Education",
     subtitle: "MY ACADEMIC BACKGROUND",
@@ -302,6 +374,7 @@ export const content = {
       },
     ],
   },
+
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR Projects",
@@ -351,7 +424,8 @@ export const content = {
       },
     ],
   },
+
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "",
   },
 };
